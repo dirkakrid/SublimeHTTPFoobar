@@ -1,0 +1,5 @@
+[
+    { "keys": ["alt+'"], "command": "http_foobar", "caption": "Play/Pause", "args": {"cmd": "PlayOrPause" } },
+    { "keys": ["alt+]"], "command": "http_foobar", "caption": "Next", "args": {"cmd": "StartNext" }},
+    { "keys": ["alt+["], "command": "http_foobar", "caption": "Previous", "args": {"cmd": "StartPrevious" }}
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "id": "foobar",
+        "caption": "Foobar",
+        "children":
+        [
+            { "command": "http_foobar", "caption": "Play/Pause", "args": {"cmd": "PlayOrPause" } },
+            { "command": "http_foobar", "caption": "Start", "args": {"cmd": "Start" } },
+            { "command": "http_foobar", "caption": "Stop", "args": {"cmd": "Stop" } },
+            { "caption": "-"},
+            { "command": "http_foobar", "caption": "Next", "args": {"cmd": "StartNext" }},
+            { "command": "http_foobar", "caption": "Previous", "args": {"cmd": "StartPrevious" }}
+        ]
+    }
+]
